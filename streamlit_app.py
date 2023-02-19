@@ -76,6 +76,6 @@ if streamlit.button('Add a fruit to the list'):
     back_from_function = insert_row_snowflake(add_my_fruit)
     streamlit.text(back_from_function)
 #streamlit.write('The user entered ', add_my_fruit)
-#streamlit.text("Thanks for adding jackfruit")
+streamlit.text("Thanks for adding jackfruit")
 
 #my_cnx.execute("insert into pc_rivery_db.public.fruit_load_list values ('from streamlit')")
